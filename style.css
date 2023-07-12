@@ -27,7 +27,7 @@ nav a {
     width: 32px;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 500px) {
     .menu {
         display: none;
     }
