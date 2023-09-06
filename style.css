@@ -188,6 +188,7 @@ strong {
     flex-direction: column;
 }
 
+
 .nome, .email, .mensagem {
     width: 30vw;
 }
@@ -195,4 +196,36 @@ strong {
 .mensagem {
     height: 100px;
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons input {
+    padding: 5px;
+    border: none;
+    background-color: #4e4e4e8e;
+    border-radius: 5px;
+    color: white;
+}
+
+.buttons input:hover {
+    background-color: var(--laranja);
+}
 /** parte3 **/
+
+/** aside **/
+aside {
+    margin: auto;
+}
+
+.parte4 {
+    max-width: 1400px;
+}
+
+.parte4 img {
+    width: 100%;
+    margin: 40px 0;
+}
+/** aside **/
