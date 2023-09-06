@@ -181,6 +181,7 @@ strong {
 .infos-contato h5{
     font-weight: bold;
     font-size: 1em;
+    color: var(--laranja);
 }
 
 .form-email {
@@ -229,3 +230,9 @@ aside {
     margin: 40px 0;
 }
 /** aside **/
+
+footer {
+    background-color: black;
+    height: 200px;
+    color: white;
+}
