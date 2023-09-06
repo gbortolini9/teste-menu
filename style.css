@@ -113,6 +113,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: black;
+    padding-bottom: 40px;
 }
 
 .parte2 h3 {
@@ -121,7 +122,7 @@ main {
     padding-top: 40px;
 }
 
-.parte2 strong {
+strong {
     color: var(--laranja);
 }
 
@@ -152,3 +153,46 @@ main {
     border-radius: 50%;
 }
 /** parte2 **/
+
+/** parte3 **/
+.parte3 h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contato {
+    display: flex;
+    background-color: #d3d3d38e;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 50px;
+}
+
+.contato p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.infos-contato {
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-contato h5{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.form-email {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome, .email, .mensagem {
+    width: 30vw;
+}
+
+.mensagem {
+    height: 100px;
+}
+/** parte3 **/
