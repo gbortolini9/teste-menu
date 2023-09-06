@@ -85,6 +85,7 @@ main {
 .parte1 h2 {
     color: var(--laranja);
     padding: 30px;
+    font-size: 1.7em;
 }
 
 .parte1 img {
